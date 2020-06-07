@@ -1,0 +1,6 @@
+cron.log
+# vue-thehut/.env
+# vue-thehut/.env.development
+# vue-thehut/.env.production
+server/node_modules/
+server/dist/
