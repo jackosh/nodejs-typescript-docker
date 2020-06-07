@@ -3,6 +3,14 @@ console.log('server init...')
 let t = 0
 let cycleNumber = 0;
 
+/* Object Types?? */
+enum ObjectLabels {
+    undefined = "undefined",
+    Electronics = "Electronics",
+    Tool = "Tool",
+    Accessoire = "Accessoire",
+}
+
 class InventoryObject {
     objectId: number;
     name: string;
