@@ -4,12 +4,16 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npm run compileAndRun",
+        "compile": "tsc",
+        "run": "node dist/server/server.js",
+        "cmp-run": "tsc && node dist/server/server.js"
     },
     "author": "",
     "license": "ISC",
-    "dependencies": {},
-    "devDependencies": {
-        "tsc": "^1.20150623.0"
-    }
+    "dependencies": {
+        "typescript": "^3.9.5"
+    },
+    "devDependencies": {}
 }
