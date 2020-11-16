@@ -5,12 +5,12 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "npm run compileAndRun",
+        "start": "npm run cmp-run",
         "compile": "tsc",
-        "run": "node dist/server/server.js",
-        "cmp-run": "tsc && node dist/server/server.js"
+        "run": "node dist/server.js",
+        "cmp-run": "tsc && node dist/server.js"
     },
-    "author": "",
+    "author": "Jackosh",
     "license": "ISC",
     "dependencies": {
         "typescript": "^3.9.5"
