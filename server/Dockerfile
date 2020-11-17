@@ -26,5 +26,6 @@ EXPOSE 8080
 ## define user just at the end
 USER node  
 
-# CMD ["npm", "start"]
-CMD ["npm", "run", "compile"]
+CMD ["npm", "start"]
+# CMD ["npm", "run", "compile"]
+RUN ls -al /app/dist
